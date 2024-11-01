@@ -16,5 +16,8 @@ namespace SensiveBlogProject.EntityLayer.Concrete
 
         public bool Status { get; set; }
 
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
+
     }
 }
